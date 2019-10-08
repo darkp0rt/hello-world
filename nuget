@@ -1,0 +1,16 @@
+$packPath=join-path $workspace 'src/Dnc.Core'
+cd $packPath
+dotnet pack -c release -o bin/release
+$nugetPath=join-path $packPath 'bin/release/'
+cd $nugetPath
+dotnet nuget push Dncsdgsdg.$version.nupkg -k oy2jhggtncepirf5it4qtbuyrppwfhke7mi4tswqf4mbc3 -s https://api.nuget.org/v3/index.json
+
+blbhahhbhka
+
+dotnet nuget push DbShedsdgostgres.%1.nupkg -k oy2eziutaeiowqmtxdlaulkqogc7v62etc7u3awctr4b6y -s https://api.nuget.org/v3/index.json
+
+dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a -s https://customsource/
+
+nuget setapikey 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
+
+nuget setapikey oy2eziutaeiowqmtxdlaulkqogc7v62etc7u3awctr4b99
